@@ -7,4 +7,4 @@ ADD hbw.py hbw.py
 RUN pip install -r requirements.txt
 COPY docker-entrypoint.sh /usr/local/bin/
 EXPOSE 5000
-CMD ["python hbw.py"]
+CMD ["python /app/hbw.py"]
